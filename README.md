@@ -2,8 +2,19 @@
 
 A **CounterStrikeSharp plugin** that detects and optionally blocks players connecting via VPNs or proxies in CS2 servers.  
 
-It uses **IPHub’s VPN detection API**, supports **SteamID/IP whitelisting**, **mid-game detection**, and flexible **MonitorMode** to either log or enforce kicks.  
+This plugin integrates with **[IPHub’s VPN detection API](https://iphub.info/)** because it’s simple to set up, lightweight, and reliable.  
 
+- ✅ **Free plan:** Provides **1,000 queries per day**, which is enough for most small or medium community servers.  
+- ✅ **Paid plans:** Available for larger servers with higher player counts or stricter VPN enforcement needs.  
+
+> **Disclaimer:**  
+> This project is **not sponsored, endorsed, or officially supported by IPHub**.  
+> It simply uses their public API as a VPN detection source.  
+
+VPNBlocker supports:  
+- **SteamID/IP whitelisting**  
+- **Mid-game IP change detection**  
+- A flexible **MonitorMode** that can either **log detections for admin review** or **actively kick VPN users**.  
 ---
 
 ## 📦 Requirements  
