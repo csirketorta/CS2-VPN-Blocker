@@ -111,7 +111,7 @@ CREATE TABLE IF NOT EXISTS `vpn_ipaddresses` (
        "98.76.54.32"
      ],
      "WhitelistedSteamIDs": [
-       "76561198012345678"
+       "76561198076843812"
      ]
    }
 7. **Reload the plugin after editing the config**
