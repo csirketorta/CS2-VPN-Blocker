@@ -5,7 +5,7 @@ A **CounterStrikeSharp plugin** that detects and optionally blocks players conne
 This plugin integrates with **[IPHub’s VPN detection API](https://iphub.info/)** because it’s simple to set up, lightweight, and reliable.  
 
 - ✅ **Free plan:** Provides **1,000 queries per day**, which is enough for most small or medium community servers.  
-- ✅ **Paid plans:** Available for larger servers with higher player counts or stricter VPN enforcement needs.  
+- ✅ **Paid plans:** Available for larger servers with higher player counts.
 
 > **Disclaimer:**  
 > This project is **not sponsored, endorsed, or officially supported by IPHub**.  
