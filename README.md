@@ -41,7 +41,7 @@ It uses **IPHub’s VPN detection API**, supports **SteamID/IP whitelisting**, *
 
 | Command | Arguments | Description |
 |---------|-----------|-------------|
-| **css_vpn_reload_config** | *(none)* | Reloads `vpnblocker_c.json` without restarting the server |
+| **css_vpn_reload_config** | *(none)* | Reloads `vpnblocker_config.json` without restarting the server |
 | **css_vpn_monitormode** | *(none)* | Shows current MonitorMode (1 = log-only, 0 = kick mode) |
 | **css_vpn_monitormode** | `1` or `0` | Sets MonitorMode: `1` = log-only, `0` = kick mode (re-checks & enforces kicks immediately) |
 | **css_vpn_whitelist_id** | `<SteamID64>` | Adds a SteamID to the whitelist (skips VPN checks) |
